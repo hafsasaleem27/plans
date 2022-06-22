@@ -28,6 +28,22 @@ body {
     font-family: sans-serif;
 } */
 
+.plan {
+    background-color: #d5ffdc;
+    width: 30%;
+    display: inline-block;
+    padding: 16px;
+    margin: 8px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.plan--highlighted {
+    background-color: #19b84c;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
 .main-header {
     width: 100%;
     background: #2ddf5c;
