@@ -74,6 +74,17 @@ body {
     color: white;
 }
 
+.button {
+    background-color: #0e4f1f;
+    color: white;
+    border: 1.5px solid #0e4f1f;
+    font: inherit;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .main-header {
   width: 100%;
   background: #2ddf5c;
