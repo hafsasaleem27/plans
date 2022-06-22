@@ -71,18 +71,18 @@ body {
 }
 
 .plan--highlighted .plan__price {
-    color: white;
+  color: white;
 }
 
 .button {
-    background-color: #0e4f1f;
-    color: white;
-    border: 1.5px solid #0e4f1f;
-    font: inherit;
-    font-weight: bold;
-    padding: 8px;
-    border-radius: 8px;
-    cursor: pointer;
+  background-color: #0e4f1f;
+  color: white;
+  border: 1.5px solid #0e4f1f;
+  font: inherit;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .main-header {
