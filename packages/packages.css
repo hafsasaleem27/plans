@@ -1,0 +1,52 @@
+main {
+  margin-top: 32px;
+}
+
+.package {
+  border: 4px solid #0e4f1f;
+
+  /* padding: 32px; */ /* I removed padding from here as then it was not making the anchor tag 
+                        part clickable (only the part which was occupied by this padding) */
+  border-left: none;
+  width: 80%;
+  margin-bottom: 8px;
+}
+
+#plus-plan {
+  background-color: #a4e3b8;
+}
+
+#free-plan {
+  background-color: #bee1ca;
+}
+
+#premium-plan {
+  background-color: #0e4f1f;
+}
+
+#premium-plan .package__title {
+  color: white;
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.package__tagline {
+  color: #7d7c7c;
+}
+
+.package__description {
+  border: 2px solid #0e4f1f;
+  background-color: white;
+  padding: 8px;
+}
+
+.package:hover,  /* so section element has hover and active states too? */
+.package:active {
+  border-color: rgb(213, 124, 124);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
