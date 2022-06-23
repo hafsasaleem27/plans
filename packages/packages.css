@@ -18,6 +18,18 @@ main {
 
 #free-plan {
   background-color: #bee1ca;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  float: right;
+}
+
+#free-plan:hover,
+#free-plan:active {
+  border-left: 4px solid rgb(213, 124, 124);
+}
+
+#clearfix {
+  clear: both;
 }
 
 #premium-plan {
