@@ -94,6 +94,25 @@ body {
   outline: none;
 }
 
+#key-features {
+  background-color: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
+  margin: 32px;
+  color: white;
+}
+
+#key-features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+}
+
 .main-header {
   width: 100%;
   background: #2ddf5c;
