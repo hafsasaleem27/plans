@@ -10,6 +10,12 @@
   text-align: center;
 }
 
+.plan__list {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
