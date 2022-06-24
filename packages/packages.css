@@ -18,6 +18,18 @@ main {
   border-left: none;
   width: 80%;
   margin-bottom: 8px;
+  position: relative;
+}
+
+.package__badge {
+  color: white;
+  background-color: #ff4fef;
+  padding: 20px;
+  margin: 20px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #plus-plan {
